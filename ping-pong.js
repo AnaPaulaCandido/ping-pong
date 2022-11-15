@@ -5,7 +5,7 @@ let diametro = 13;
 let raio = diametro / 2 ;
 
 //velocidade da bolinha
-let velocidadeXBolinha = 6;
+let velocidadeXBolinha = 7;
 let velocidadeYBolinha = 6;
 let raqueteComprimento = 10;
 let raqueteAltura = 90;
@@ -40,6 +40,7 @@ function setup() {
    createCanvas(600, 400);
    trilha.loop();
 }
+
 
 function draw() {
   background(0);
